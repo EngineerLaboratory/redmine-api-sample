@@ -59,13 +59,12 @@
         >
           <b-button variant="primary" @click="action">Primary</b-button>
         </b-form-group>
-      <b-form-group
+      </b-form-group>
+      <b-form-textarea
        v-model="jsontext"
        placeholder="Enter something..."
        rows="3"
        max-rows="6"
-      >
-      <b-form-textarea
        >
       </b-form-textarea>
     </b-card>
